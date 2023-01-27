@@ -1,4 +1,7 @@
 <script setup>
+definePageMeta({
+    middleware: 'forms'
+})
 const client = useSupabaseAuthClient();
 
 const credentials = reactive({
