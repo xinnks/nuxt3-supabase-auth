@@ -1,4 +1,6 @@
 {
+  "name": "nuxt3-supabase-auth",
+  "description": "A Nuxt 3 and Supabase authentication demonstrational project.",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -7,6 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "author": "James Sinkala <xinnks@gmail.com>",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@nuxtjs/supabase": "^0.3.0",
     "nuxt": "^3.1.0"
